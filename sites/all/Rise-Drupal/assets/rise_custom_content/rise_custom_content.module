@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Rise Custom Content feature.
+ */
+
+include_once 'rise_custom_content.features.inc';

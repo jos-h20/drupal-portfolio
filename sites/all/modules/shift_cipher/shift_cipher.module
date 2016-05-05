@@ -83,7 +83,7 @@ function element_validate_direction($element) {
 function element_validate_phrase($element) {
     $phrase = $element['#value'];
 
-    if (preg_match('/^[a-z,.!;:()?]+$/i', $phrase) == false) {
+    if (preg_match('/^[a-z,.!;:()? ]+$/i', $phrase) == false) {
         form_set_error($phrase, t('Please only use letters or punctuation.'));
     }
 }
